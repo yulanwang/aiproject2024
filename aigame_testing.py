@@ -314,26 +314,26 @@ def viterbi_with_constraints(observations, states, emission_matrix, transition_m
 
 # UNTIL HERE **********************************************************************************************************
 
-observations = np.array(["blueberry", "kiwi", "spring", "summer", 
-                          "football", "fall", "winter", "soccer",
-                          "indian", "thai", "basketball", "japanese",
-                          "volleyball", "apple", "chinese", "banana"])
-states = np.array(["fruit", "season", "sport", "cuisine"])
+# observations = np.array(["blueberry", "kiwi", "spring", "summer", 
+#                           "football", "fall", "winter", "soccer",
+#                           "indian", "thai", "basketball", "japanese",
+#                           "volleyball", "apple", "chinese", "banana"])
+# states = np.array(["fruit", "season", "sport", "cuisine"])
 
-cleaned_states = preprocess_states(states)
+# cleaned_states = preprocess_states(states)
 
-emission_matrix = np.zeros((len(cleaned_states), len(observations)))
-for state_index in range(len(cleaned_states)):
-    for obs_index in range(len(observations)):
-        similarity = word2vec_calculation(observations[obs_index], cleaned_states[state_index])
-        emission_matrix[state_index, obs_index] = similarity
-emission_matrix /= emission_matrix.sum(axis=0, keepdims=True)
+# emission_matrix = np.zeros((len(cleaned_states), len(observations)))
+# for state_index in range(len(cleaned_states)):
+#     for obs_index in range(len(observations)):
+#         similarity = word2vec_calculation(observations[obs_index], cleaned_states[state_index])
+#         emission_matrix[state_index, obs_index] = similarity
+# emission_matrix /= emission_matrix.sum(axis=0, keepdims=True)
 
-transition_matrix = np.full((len(cleaned_states), len(cleaned_states)), 1 / len(cleaned_states))
+# transition_matrix = np.full((len(cleaned_states), len(cleaned_states)), 1 / len(cleaned_states))
 
-best_path = viterbi_with_constraints(observations, cleaned_states, emission_matrix, transition_matrix)
+# best_path = viterbi_with_constraints(observations, cleaned_states, emission_matrix, transition_matrix)
 
-print("Best path of states for given observations:")
-for obs, state in zip(observations, best_path):
-    print(f"{obs} -> {state}")
+# print("Best path of states for given observations:")
+# for obs, state in zip(observations, best_path):
+#     print(f"{obs} -> {state}")
 

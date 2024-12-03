@@ -1,5 +1,4 @@
-# ai_game_with_gui_option.py
-
+import re
 import pygame
 import random
 import numpy as np
@@ -9,37 +8,40 @@ import gensim.downloader as api
 # Load Word2Vec model
 word2vec_model = api.load("word2vec-google-news-300")
 
-def word2vec_calculation(word1, word2):
-    word1 = word1.lower()
-    word2 = word2.lower()
+def get_word_embedding(word):
     try:
-        embedding1 = word2vec_model[word1].reshape(1, -1)
-        embedding2 = word2vec_model[word2].reshape(1, -1)
-        similarity = cosine_similarity(embedding1, embedding2)[0][0]
-        if similarity < 0:
-            return similarity ** 2  
-        else:
-            return similarity
+        return word2vec_model[word]
     except KeyError:
-        return 0  # If word not in vocabulary, return 0 similarity
+        print(f"The word '{word}' is not in the Word2Vec vocabulary.")
+        return np.zeros(word2vec_model.vector_size)
+
+def word2vec_calculation(word1, word2):
+    embedding1 = get_word_embedding(word1).reshape(1, -1)
+    embedding2 = get_word_embedding(word2).reshape(1, -1)
+    similarity = cosine_similarity(embedding1, embedding2)[0][0]
+    if similarity < 0:
+        return similarity**2
+    else:
+        return similarity 
+    
+def preprocess_states(states):
+    cleaned_states = [re.sub(r'\d+', '', state) for state in states]
+    return cleaned_states
 
 def run_aigame(observations, states, category_state_mapping):
     # Initialize emission matrix
-    emission_matrix_observations_states = np.zeros((len(states), len(observations)))
-    state_similarities = []
-    for state in states:
-        similarities = np.array([word2vec_calculation(obs, state) for obs in observations])
-        state_similarities.append(similarities)
-    state_similarities = np.array(state_similarities)
-    for state_index in range(len(states)):
-        similarities = state_similarities[state_index]
-        normalized_similarities = similarities / np.sum(similarities)
-        emission_matrix_observations_states[state_index] = normalized_similarities
+    cleaned_states = preprocess_states(states)
 
-    # Initialize the transition matrix
-    transition_matrix = np.ones((len(states), len(states))) / len(states)
+    emission_matrix = np.zeros((len(cleaned_states), len(observations)))
+    for state_index in range(len(cleaned_states)):
+        for obs_index in range(len(observations)):
+            similarity = word2vec_calculation(observations[obs_index], cleaned_states[state_index])
+            emission_matrix[state_index, obs_index] = similarity
+    emission_matrix /= emission_matrix.sum(axis=0, keepdims=True)
 
-    best_path = viterbi_with_constraints(observations, states, emission_matrix_observations_states, transition_matrix)
+    transition_matrix = np.full((len(cleaned_states), len(cleaned_states)), 1 / len(cleaned_states))
+
+    best_path = viterbi_with_constraints(observations, cleaned_states, emission_matrix, transition_matrix)
     return best_path
 
 def viterbi_with_constraints(observations, states, emission_matrix, transition_matrix):
@@ -79,10 +81,10 @@ GUI = True
 
 # Define categories and their colors
 categories = {
-    'fruits': (111, 148, 96),   # GREEN
-    'seasons': (224, 76, 76),   # RED
-    'sports': (255, 255, 0),    # YELLOW
-    'cuisines': (137, 207, 240) # BLUE
+    'fruit': (111, 148, 96),   # GREEN
+    'season': (224, 76, 76),   # RED
+    'sport': (255, 255, 0),    # YELLOW
+    'cuisine': (137, 207, 240) # BLUE
 }
 
 # Define words for each category (make sure all words are lowercase)
@@ -91,27 +93,23 @@ seasons = ['spring', 'summer', 'autumn', 'winter']
 sports = ['soccer', 'basketball', 'tennis', 'volleyball']
 cuisines = ['indian', 'thai', 'chinese', 'japanese']
 
-# Create observations by sampling words from each category
 observations_list = fruits + seasons + sports + cuisines
 random.shuffle(observations_list)
 observations = np.array(observations_list)
 
-# Define states (categories)
 states = np.array(list(categories.keys()))
 
-# Category to word mapping
 category_state_mapping = {
-    'fruits': fruits,
-    'seasons': seasons,
-    'sports': sports,
-    'cuisines': cuisines
+    'fruit': fruits,
+    'season': seasons,
+    'sport': sports,
+    'cuisine': cuisines
 }
-
-# Run the AI game to get the best path (state assignments)
-best_path = run_aigame(observations, states, category_state_mapping)
 
 if GUI:
     pygame.init()
+
+    best_path = []
 
     # Constants
     WIDTH, HEIGHT = 800, 750  
@@ -149,7 +147,6 @@ if GUI:
     move_delay = 1000  
     last_move_time = pygame.time.get_ticks()
 
-    # Helper functions
     def draw_word_box(word, x, y, color=WHITE):
         pygame.draw.rect(screen, color, (x, y, WORD_BOX_WIDTH, WORD_BOX_HEIGHT))
         pygame.draw.rect(screen, BORDER_COLOR, (x, y, WORD_BOX_WIDTH, WORD_BOX_HEIGHT), 2)
@@ -198,7 +195,6 @@ if GUI:
         best_path = []
         message = "Click 'Solve' to let the AI solve the game."
 
-    # Main game loop
     running = True
     clock = pygame.time.Clock()
 
@@ -211,32 +207,30 @@ if GUI:
                 row, col = divmod(i, GRID_SIZE)
                 x = col * (WORD_BOX_WIDTH + PADDING) + PADDING
                 y = row * (WORD_BOX_HEIGHT + PADDING) + PADDING
-                # Determine the color based on the AI's assignments up to the current step
+
                 if ai_solving and i < step:
                     assigned_category = best_path[i]
                     color = categories[assigned_category]
                 elif not ai_solving and best_path:
-                    # If AI has finished solving, keep the words colored
                     assigned_category = best_path[i]
                     color = categories[assigned_category]
                 else:
                     color = WHITE
+
                 if word == highlight_word:
-                    # Highlight the word currently being considered
                     draw_word_box(word, x, y, HIGHLIGHT_COLOR)
                 else:
                     draw_word_box(word, x, y, color)
+
                 word_positions[word] = (x, y)
 
             # Draw categories
-            category_y = HEIGHT - 60 - MESSAGE_HEIGHT - PADDING - BUTTON_HEIGHT - 10  # Adjusted position
+            category_y = HEIGHT - 60 - MESSAGE_HEIGHT - PADDING - BUTTON_HEIGHT - 10  
             for i, (category, color) in enumerate(categories.items()):
                 draw_category_box(category, i * (WIDTH // 4), category_y, color)
 
-            # Display message
             display_message(message)
 
-            # Draw buttons
             if not ai_solving and not best_path:
                 draw_solve_button()
             elif not ai_solving and best_path:
@@ -248,7 +242,7 @@ if GUI:
                     running = False
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if not ai_solving and not best_path and solve_button_rect.collidepoint(event.pos):
-                        # Start the AI solving process
+                        # Start the AI solving process here
                         best_path = run_aigame(observations, states, category_state_mapping)
                         ai_solving = True
                         message = "AI is solving the game..."
@@ -256,7 +250,7 @@ if GUI:
                         highlight_word = None
                         last_move_time = pygame.time.get_ticks()
                     elif not ai_solving and best_path and solve_again_button_rect.collidepoint(event.pos):
-                        # Reset the game state and solve again
+                        # Reset and solve again
                         reset_game_state()
                         best_path = run_aigame(observations, states, category_state_mapping)
                         ai_solving = True
