@@ -59,22 +59,6 @@ human = ["head", "arm", "leg", "torso",
         "skin", "brain", "stomach", "bones"]
 
 
-# # get a random matrix of observations
-# selected_elements = random.sample(shapes, 4) + random.sample(animals, 4) + random.sample(fruits, 4) + random.sample(colors, 4)
-# random.shuffle(selected_elements)
-# observations = np.array(selected_elements).reshape(16,)
-# # print("Randomly ordered 4x4 matrix:")
-# # print(observations)
-# # set states
-# states = np.array(["shapes", "animals", "colors", "fruits"])
-
-# category_state_mapping = {
-#     "shapes": states[:4],
-#     "animals": states[4:8],
-#     "colors": states[8:12],
-#     "fruits": states[12:]
-# }
-
 def numcorrect(observations, best_path, category_state_mapping):
     correct = 0
     incorrect = 0
@@ -282,8 +266,8 @@ def trials_with_tree_and_human(num, category_simple, tree, human):
     makeplot(percents, "Percent Correct for Each Trial - Human and Tree")
 
 trials_with_tree(10000, category_simple, tree)
-# trials_with_human(10000, category_simple, human)
-# trials_with_tree_and_human(10000, category_simple, tree, human)
+trials_with_human(10000, category_simple, human)
+trials_with_tree_and_human(10000, category_simple, tree, human)
 
 
 

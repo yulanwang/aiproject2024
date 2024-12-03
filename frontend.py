@@ -144,7 +144,7 @@ if GUI:
     ai_solving = False
     step = 0 
     highlight_word = None
-    move_delay = 1000  
+    move_delay = 500  
     last_move_time = pygame.time.get_ticks()
 
     def draw_word_box(word, x, y, color=WHITE):
