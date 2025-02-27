@@ -1,0 +1,210 @@
+Game ID,Word,Category
+1,sonnet,poetic forms
+1,haiku,poetic forms
+1,epic,poetic forms
+1,limerick,poetic forms
+1,solar,renewable energy sources
+1,wind,renewable energy sources
+1,hydro,renewable energy sources
+1,geothermal,renewable energy sources
+1,petra,ancient cities
+1,machu picchu,ancient cities
+1,pompeii,ancient cities
+1,troy,ancient cities
+1,hurdy-gurdy,obscure musical instruments
+1,theremin,obscure musical instruments
+1,zither,obscure musical instruments
+1,sheng,obscure musical instruments
+2,iliad,epic poems
+2,odyssey,epic poems
+2,beowulf,epic poems
+2,aeneid,epic poems
+2,impressionism,art movements
+2,cubism,art movements
+2,surrealism,art movements
+2,baroque,art movements
+2,morpheme,linguistic concepts
+2,syntax,linguistic concepts
+2,phoneme,linguistic concepts
+2,semantics,linguistic concepts
+2,tesla,inventors and scientists
+2,einstein,inventors and scientists
+2,curie,inventors and scientists
+2,newton,inventors and scientists
+3,tarantino,famous directors
+3,spielberg,famous directors
+3,hitchcock,famous directors
+3,kubrick,famous directors
+3,amazon,river systems
+3,nile,river systems
+3,yangtze,river systems
+3,mississippi,river systems
+3,mozart,classical composers
+3,bach,classical composers
+3,beethoven,classical composers
+3,vivaldi,classical composers
+3,internet,technological innovations
+3,smartphone,technological innovations
+3,robotics,technological innovations
+3,ai,technological innovations
+4,hydrogen,chemical elements
+4,oxygen,chemical elements
+4,iron,chemical elements
+4,silicon,chemical elements
+4,orwell,famous authors
+4,dickens,famous authors
+4,hemingway,famous authors
+4,shakespeare,famous authors
+4,rock,music genres
+4,jazz,music genres
+4,pop,music genres
+4,classical,music genres
+4,vangogh,famous painters
+4,picasso,famous painters
+4,rembrandt,famous painters
+4,monet,famous painters
+5,london,european cities
+5,paris,european cities
+5,rome,european cities
+5,berlin,european cities
+5,apple,famous brands
+5,nike,famous brands
+5,gucci,famous brands
+5,tesla,famous brands
+5,mars,planets in our solar system
+5,venus,planets in our solar system
+5,earth,planets in our solar system
+5,jupiter,planets in our solar system
+5,putin,world leaders
+5,macron,world leaders
+5,biden,world leaders
+5,merkel,world leaders
+6,china,countries in asia
+6,japan,countries in asia
+6,india,countries in asia
+6,thailand,countries in asia
+6,alien,famous sci-fi movies
+6,blade,famous sci-fi movies
+6,matrix,famous sci-fi movies
+6,inception,famous sci-fi movies
+6,rose,types of flowers
+6,tulip,types of flowers
+6,daisy,types of flowers
+6,lily,types of flowers
+6,london,capital cities
+6,paris,capital cities
+6,rome,capital cities
+6,berlin,capital cities
+7,baseball,sports
+7,tennis,sports
+7,basketball,sports
+7,soccer,sports
+7,king,chess pieces
+7,queen,chess pieces
+7,bishop,chess pieces
+7,knight,chess pieces
+7,guitar,music instruments
+7,piano,music instruments
+7,drum,music instruments
+7,flute,music instruments
+7,halo,video game titles
+7,zelda,video game titles
+7,pacman,video game titles
+7,tetris,video game titles
+8,france,countries
+8,brazil,countries
+8,china,countries
+8,canada,countries
+8,espresso,coffee types
+8,latte,coffee types
+8,americano,coffee types
+8,cappuccino,coffee types
+8,aries,zodiac signs
+8,leo,zodiac signs
+8,cancer,zodiac signs
+8,capricorn,zodiac signs
+8,monet,famous painters
+8,picasso,famous painters
+8,davinci,famous painters
+8,vangogh,famous painters
+9,texas,us states
+9,alaska,us states
+9,florida,us states
+9,ohio,us states
+9,water,types of liquid
+9,juice,types of liquid
+9,oil,types of liquid
+9,milk,types of liquid
+9,angle,mathematical terms
+9,radius,mathematical terms
+9,volume,mathematical terms
+9,length,mathematical terms
+9,orwell,famous authors
+9,hemingway,famous authors
+9,austen,famous authors
+9,dickens,famous authors
+10,red,colors
+10,blue,colors
+10,green,colors
+10,black,colors
+10,second,units of time
+10,minute,units of time
+10,hour,units of time
+10,day,units of time
+10,flute,musical instruments
+10,drum,musical instruments
+10,harp,musical instruments
+10,bell,musical instruments
+10,apple,famous brands
+10,amazon,famous brands
+10,nike,famous brands
+10,disney,famous brands
+11,giraffe,zoo animals
+11,elephant,zoo animals
+11,zebra,zoo animals
+11,bear,zoo animals
+11,ford,car brands
+11,subaru,car brands
+11,fiat,car brands
+11,jaguar,car brands
+11,leopard,big five game animals
+11,rhino,big five game animals
+11,buffalo,big five game animals
+11,lion,big five game animals
+11,apple,tech companies
+11,google,tech companies
+11,microsoft,tech companies
+11,intel,tech companies
+12,waltz,types of dances
+12,tango,types of dances
+12,salsa,types of dances
+12,jazz,types of dances
+12,note,musical terms
+12,beat,musical terms
+12,scale,musical terms
+12,jazz,musical terms
+12,bbq,types of sauces
+12,salsa,types of sauces
+12,mayo,types of sauces
+12,soy,types of sauces
+12,foot,measurement terms
+12,mile,measurement terms
+12,scale,measurement terms
+12,yard,measurement terms
+Game ID,Word,Category
+13,blue,colors
+13,green,colors
+13,red,colors
+13,yellow,colors
+13,apple,famous brand logos
+13,starbucks,famous brand logos
+13,target,famous brand logos
+13,subway,famous brand logos
+13,rapid,synonyms for fast
+13,swift,synonyms for fast
+13,express,synonyms for fast
+13,quick,synonyms for fast
+13,bus,public transportation
+13,train,public transportation
+13,subway,public transportation
+13,tram,public transportation
