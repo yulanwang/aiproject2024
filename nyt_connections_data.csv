@@ -191,7 +191,6 @@ Game ID,Word,Category
 12,mile,measurement terms
 12,scale,measurement terms
 12,yard,measurement terms
-Game ID,Word,Category
 13,blue,colors
 13,green,colors
 13,red,colors
@@ -208,3 +207,323 @@ Game ID,Word,Category
 13,train,public transportation
 13,subway,public transportation
 13,tram,public transportation
+14,blue,basic colors
+14,green,basic colors
+14,red,basic colors
+14,yellow,basic colors
+14,cello,types of musical instruments
+14,flute,types of musical instruments
+14,harp,types of musical instruments
+14,violin,types of musical instruments
+14,helium,elements of the periodic table
+14,mercury,elements of the periodic table
+14,oxygen,elements of the periodic table
+14,xenon,elements of the periodic table
+14,carpediem,latin phrases
+14,quovadis,latin phrases
+14,venividivici,latin phrases
+14,incognito,latin phrases
+15,apple,common fruits
+15,banana,common fruits
+15,orange,common fruits
+15,pear,common fruits
+15,monet,famous painters
+15,picasso,famous painters
+15,rembrandt,famous painters
+15,vangogh,famous painters
+15,alluring,synonyms for beautiful
+15,exquisite,synonyms for beautiful
+15,gorgeous,synonyms for beautiful
+15,radiant,synonyms for beautiful
+15,aristotle,greek philosophers
+15,heraclitus,greek philosophers
+15,plato,greek philosophers
+15,sophocles,greek philosophers
+16,breeze,types of winds
+16,gust,types of winds
+16,monsoon,types of winds
+16,zephyr,types of winds
+16,amazon,major world rivers
+16,ganges,major world rivers
+16,nile,major world rivers
+16,volga,major world rivers
+16,pompeii,significant archaeological sites
+16,pyramids,significant archaeological sites
+16,stonehenge,significant archaeological sites
+16,troy,significant archaeological sites
+16,diamond,gems and precious stones
+16,emerald,gems and precious stones
+16,ruby,gems and precious stones
+16,sapphire,gems and precious stones
+17,brodzky,famous sculptors
+17,david,famous sculptors
+17,rodin,famous sculptors
+17,michelangelo,famous sculptors
+17,bake,food preparation methods
+17,grill,food preparation methods
+17,saute,food preparation methods
+17,steam,food preparation methods
+17,gothic,architectural styles
+17,modern,architectural styles
+17,neoclassical,architectural styles
+17,romanesque,architectural styles
+17,eagle,types of birds
+17,heron,types of birds
+17,kiwi,types of birds
+17,sparrow,types of birds
+18,cerium,rare earth elements
+18,erbium,rare earth elements
+18,neodymium,rare earth elements
+18,thulium,rare earth elements
+18,hamlet,globe theatre plays
+18,macbeth,globe theatre plays
+18,othello,globe theatre plays
+18,tempest,globe theatre plays
+18,dolphin,common mammals
+18,elephant,common mammals
+18,kangaroo,common mammals
+18,raccoon,common mammals
+18,arachnophobia,unusual phobias
+18,claustrophobia,unusual phobias
+18,gerascophobia,unusual phobias
+18,trichophobia,unusual phobias
+19,biotin,lesser-known vitamins
+19,folate,lesser-known vitamins
+19,niacin,lesser-known vitamins
+19,riboflavin,lesser-known vitamins
+19,denmark,nordic countries
+19,finland,nordic countries
+19,iceland,nordic countries
+19,sweden,nordic countries
+19,chess,classic board games
+19,risk,classic board games
+19,sorry,classic board games
+19,twister,classic board games
+19,boccia,unusual sports
+19,jai-alai,unusual sports
+19,kabaddi,unusual sports
+19,sepak,unusual sports
+20,arch,types of bridges
+20,beam,types of bridges
+20,cantilever,types of bridges
+20,suspension,types of bridges
+20,chemistry,nobel prize categories
+20,literature,nobel prize categories
+20,peace,nobel prize categories
+20,physics,nobel prize categories
+20,holmes,famous literary detectives
+20,marlowe,famous literary detectives
+20,poirot,famous literary detectives
+20,sam spade,famous literary detectives
+20,ether,obsolete scientific theories
+20,flat earth,obsolete scientific theories
+20,phlogiston,obsolete scientific theories
+20,spontaneous generation,obsolete scientific theories
+21,coal,fossil fuel products
+21,gasoline,fossil fuel products
+21,kerosene,fossil fuel products
+21,natural gas,fossil fuel products
+21,hexagon,shapes in geometry
+21,parallelogram,shapes in geometry
+21,rhombus,shapes in geometry
+21,triangle,shapes in geometry
+21,aristotle,ancient philosophers
+21,confucius,ancient philosophers
+21,plato,ancient philosophers
+21,socrates,ancient philosophers
+21,franco,infamous dictators
+21,hitler,infamous dictators
+21,stalin,infamous dictators
+21,mussolini,infamous dictators
+22,flame,unusual pantone colors
+22,marsala,unusual pantone colors
+22,serenity,unusual pantone colors
+22,tangerine,unusual pantone colors
+22,berkelium,rare chemical elements
+22,hafnium,rare chemical elements
+22,rhenium,rare chemical elements
+22,thulium,rare chemical elements
+22,cumulus,types of clouds
+22,nimbus,types of clouds
+22,stratus,types of clouds
+22,cirrocumulus,types of clouds
+22,bachata,latin dance styles
+22,merengue,latin dance styles
+22,rumba,latin dance styles
+22,salsa,latin dance styles
+23,batholith,uncommon geological terms
+23,cretaceous,uncommon geological terms
+23,peneplain,uncommon geological terms
+23,talus,uncommon geological terms
+23,assyria,ancient civilizations
+23,babylon,ancient civilizations
+23,carthage,ancient civilizations
+23,sumer,ancient civilizations
+23,coriolanus,lesser known shakespeare plays
+23,cymbeline,lesser known shakespeare plays
+23,pericles,lesser known shakespeare plays
+23,titus,lesser known shakespeare plays
+23,beethoven,renowned classical composers
+23,haydn,renowned classical composers
+23,mozart,renowned classical composers
+23,verdi,renowned classical composers
+24,psycho,hitchcock movies
+24,rope,hitchcock movies
+24,vertigo,hitchcock movies
+24,rebecca,hitchcock movies
+24,pentatonic,music scales
+24,chromatic,music scales
+24,major,music scales
+24,minor,music scales
+24,bosch,tool brands
+24,dewalt,tool brands
+24,makita,tool brands
+24,ryobi,tool brands
+24,conquest,the four horsemen of the apocalypse
+24,death,the four horsemen of the apocalypse
+24,famine,the four horsemen of the apocalypse
+24,war,the four horsemen of the apocalypse
+25,aether,obscure greek gods
+25,erebus,obscure greek gods
+25,hyperion,obscure greek gods
+25,themis,obscure greek gods
+25,malbec,types of wine
+25,riesling,types of wine
+25,syrah,types of wine
+25,zinfandel,types of wine
+25,fortran,computer programming languages
+25,lisp,computer programming languages
+25,ruby,computer programming languages
+25,swift,computer programming languages
+25,curie,famous scientists
+25,einstein,famous scientists
+25,hawking,famous scientists
+25,tesla,famous scientists
+26,sumerians,ancient civilizations
+26,egyptians,ancient civilizations
+26,mayans,ancient civilizations
+26,romans,ancient civilizations
+26,morpheme,linguistic terms
+26,syntax,linguistic terms
+26,semiotics,linguistic terms
+26,phoneme,linguistic terms
+26,fibrodysplasia,rare diseases
+26,pantothenate,rare diseases
+26,ochronosis,rare diseases
+26,hyper igm,rare diseases
+26,comet,celestial objects
+26,pulsar,celestial objects
+26,nebula,celestial objects
+26,quasar,celestial objects
+27,beethoven,famous composers
+27,mozart,famous composers
+27,bach,famous composers
+27,vivaldi,famous composers
+27,halberd,medieval weapons
+27,trebuchet,medieval weapons
+27,longsword,medieval weapons
+27,crossbow,medieval weapons
+27,stonehenge,archaeological sites
+27,machupicchu,archaeological sites
+27,pyramids,archaeological sites
+27,petra,archaeological sites
+27,entanglement,quantum physics terms
+27,superposition,quantum physics terms
+27,quark,quantum physics terms
+27,boson,quantum physics terms
+28,tyrannosaurus,dinosaurs
+28,velociraptor,dinosaurs
+28,stegosaurus,dinosaurs
+28,triceratops,dinosaurs
+28,pythagorean,mathematical theorems
+28,fermat,mathematical theorems
+28,gauss,mathematical theorems
+28,riemann,mathematical theorems
+28,blockchain,cryptocurrency terms
+28,ether,cryptocurrency terms
+28,litecoin,cryptocurrency terms
+28,ripple,cryptocurrency terms
+28,tanzanite,rare gems
+28,grandidierite,rare gems
+28,alexandrite,rare gems
+28,painite,rare gems
+29,galaxy,astronomical objects
+29,pulsar,astronomical objects
+29,nebula,astronomical objects
+29,quasar,astronomical objects
+29,allegro,musical terms
+29,fugue,musical terms
+29,cadence,musical terms
+29,fortissimo,musical terms
+29,beetle,entomology (study of insects)
+29,mantis,entomology (study of insects)
+29,firefly,entomology (study of insects)
+29,dragonfly,entomology (study of insects)
+29,besmirch,archaic english terms
+29,gainsay,archaic english terms
+29,yclept,archaic english terms
+29,wight,archaic english terms
+30,colosseum,ancient roman architecture
+30,pantheon,ancient roman architecture
+30,aqueduct,ancient roman architecture
+30,forum,ancient roman architecture
+30,hamlet,shakespeare plays
+30,othello,shakespeare plays
+30,macbeth,shakespeare plays
+30,templest,shakespeare plays
+30,enigma,cryptography terms
+30,cyborg,cryptography terms
+30,hash,cryptography terms
+30,cipher,cryptography terms
+30,hemlock,poisonous plants
+30,belladonna,poisonous plants
+30,oleander,poisonous plants
+30,castor,poisonous plants
+31,socrates,ancient philosophers
+31,plato,ancient philosophers
+31,aristotle,ancient philosophers
+31,confucius,ancient philosophers
+31,cretaceous,geological periods
+31,jurassic,geological periods
+31,triassic,geological periods
+31,permian,geological periods
+31,europium,rare earth elements
+31,terbium,rare earth elements
+31,promethium,rare earth elements
+31,thulium,rare earth elements
+31,nebula,astronomical terms
+31,quasar,astronomical terms
+31,pulsar,astronomical terms
+31,galaxy,astronomical terms
+32,bill,lineup
+32,program,lineup
+32,schedule,lineup
+32,slate,lineup
+32,audio,nyt offerings
+32,cooking,nyt offerings
+32,games,nyt offerings
+32,news,nyt offerings
+32,airplane,things made by folding paper
+32,crane,things made by folding paper
+32,fan,things made by folding paper
+32,fortune teller,things made by folding paper
+32,adieu,french words
+32,belle,french words
+32,pain,french words
+32,temps,french words
+33,designer,brand-name
+33,haute,brand-name
+33,high-end,brand-name
+33,luxury,brand-name
+33,concoct,devise
+33,engineer,devise
+33,hatch,devise
+33,mastermind,devise
+33,galileo,nasa spacecraft
+33,pioneer,nasa spacecraft
+33,viking,nasa spacecraft
+33,voyager,nasa spacecraft
+33,bingo,games where you say the game’s name
+33,marco polo,games where you say the game’s name
+33,tag,games where you say the game’s name
+33,uno,games where you say the game’s name

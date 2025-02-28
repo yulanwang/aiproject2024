@@ -1,0 +1,529 @@
+sentence1,sentence2,label
+sonnet,poetic forms,1
+haiku,poetic forms,1
+epic,poetic forms,1
+limerick,poetic forms,1
+solar,renewable energy sources,1
+wind,renewable energy sources,1
+hydro,renewable energy sources,1
+geothermal,renewable energy sources,1
+petra,ancient cities,1
+machu picchu,ancient cities,1
+pompeii,ancient cities,1
+troy,ancient cities,1
+hurdy-gurdy,obscure musical instruments,1
+theremin,obscure musical instruments,1
+zither,obscure musical instruments,1
+sheng,obscure musical instruments,1
+iliad,epic poems,1
+odyssey,epic poems,1
+beowulf,epic poems,1
+aeneid,epic poems,1
+impressionism,art movements,1
+cubism,art movements,1
+surrealism,art movements,1
+baroque,art movements,1
+morpheme,linguistic concepts,1
+syntax,linguistic concepts,1
+phoneme,linguistic concepts,1
+semantics,linguistic concepts,1
+tesla,inventors and scientists,1
+einstein,inventors and scientists,1
+curie,inventors and scientists,1
+newton,inventors and scientists,1
+tarantino,famous directors,1
+spielberg,famous directors,1
+hitchcock,famous directors,1
+kubrick,famous directors,1
+amazon,river systems,1
+nile,river systems,1
+yangtze,river systems,1
+mississippi,river systems,1
+mozart,classical composers,1
+bach,classical composers,1
+beethoven,classical composers,1
+vivaldi,classical composers,1
+internet,technological innovations,1
+smartphone,technological innovations,1
+robotics,technological innovations,1
+ai,technological innovations,1
+hydrogen,chemical elements,1
+oxygen,chemical elements,1
+iron,chemical elements,1
+silicon,chemical elements,1
+orwell,famous authors,1
+dickens,famous authors,1
+hemingway,famous authors,1
+shakespeare,famous authors,1
+rock,music genres,1
+jazz,music genres,1
+pop,music genres,1
+classical,music genres,1
+vangogh,famous painters,1
+picasso,famous painters,1
+rembrandt,famous painters,1
+monet,famous painters,1
+london,european cities,1
+paris,european cities,1
+rome,european cities,1
+berlin,european cities,1
+apple,famous brands,1
+nike,famous brands,1
+gucci,famous brands,1
+tesla,famous brands,1
+mars,planets in our solar system,1
+venus,planets in our solar system,1
+earth,planets in our solar system,1
+jupiter,planets in our solar system,1
+putin,world leaders,1
+macron,world leaders,1
+biden,world leaders,1
+merkel,world leaders,1
+china,countries in asia,1
+japan,countries in asia,1
+india,countries in asia,1
+thailand,countries in asia,1
+alien,famous sci-fi movies,1
+blade,famous sci-fi movies,1
+matrix,famous sci-fi movies,1
+inception,famous sci-fi movies,1
+rose,types of flowers,1
+tulip,types of flowers,1
+daisy,types of flowers,1
+lily,types of flowers,1
+london,capital cities,1
+paris,capital cities,1
+rome,capital cities,1
+berlin,capital cities,1
+baseball,sports,1
+tennis,sports,1
+basketball,sports,1
+soccer,sports,1
+king,chess pieces,1
+queen,chess pieces,1
+bishop,chess pieces,1
+knight,chess pieces,1
+guitar,music instruments,1
+piano,music instruments,1
+drum,music instruments,1
+flute,music instruments,1
+halo,video game titles,1
+zelda,video game titles,1
+pacman,video game titles,1
+tetris,video game titles,1
+france,countries,1
+brazil,countries,1
+china,countries,1
+canada,countries,1
+espresso,coffee types,1
+latte,coffee types,1
+americano,coffee types,1
+cappuccino,coffee types,1
+aries,zodiac signs,1
+leo,zodiac signs,1
+cancer,zodiac signs,1
+capricorn,zodiac signs,1
+monet,famous painters,1
+picasso,famous painters,1
+davinci,famous painters,1
+vangogh,famous painters,1
+texas,us states,1
+alaska,us states,1
+florida,us states,1
+ohio,us states,1
+water,types of liquid,1
+juice,types of liquid,1
+oil,types of liquid,1
+milk,types of liquid,1
+angle,mathematical terms,1
+radius,mathematical terms,1
+volume,mathematical terms,1
+length,mathematical terms,1
+orwell,famous authors,1
+hemingway,famous authors,1
+austen,famous authors,1
+dickens,famous authors,1
+red,colors,1
+blue,colors,1
+green,colors,1
+black,colors,1
+second,units of time,1
+minute,units of time,1
+hour,units of time,1
+day,units of time,1
+flute,musical instruments,1
+drum,musical instruments,1
+harp,musical instruments,1
+bell,musical instruments,1
+apple,famous brands,1
+amazon,famous brands,1
+nike,famous brands,1
+disney,famous brands,1
+giraffe,zoo animals,1
+elephant,zoo animals,1
+zebra,zoo animals,1
+bear,zoo animals,1
+ford,car brands,1
+subaru,car brands,1
+fiat,car brands,1
+jaguar,car brands,1
+leopard,big five game animals,1
+rhino,big five game animals,1
+buffalo,big five game animals,1
+lion,big five game animals,1
+apple,tech companies,1
+google,tech companies,1
+microsoft,tech companies,1
+intel,tech companies,1
+waltz,types of dances,1
+tango,types of dances,1
+salsa,types of dances,1
+jazz,types of dances,1
+note,musical terms,1
+beat,musical terms,1
+scale,musical terms,1
+jazz,musical terms,1
+bbq,types of sauces,1
+salsa,types of sauces,1
+mayo,types of sauces,1
+soy,types of sauces,1
+foot,measurement terms,1
+mile,measurement terms,1
+scale,measurement terms,1
+yard,measurement terms,1
+blue,colors,1
+green,colors,1
+red,colors,1
+yellow,colors,1
+apple,famous brand logos,1
+starbucks,famous brand logos,1
+target,famous brand logos,1
+subway,famous brand logos,1
+rapid,synonyms for fast,1
+swift,synonyms for fast,1
+express,synonyms for fast,1
+quick,synonyms for fast,1
+bus,public transportation,1
+train,public transportation,1
+subway,public transportation,1
+tram,public transportation,1
+blue,basic colors,1
+green,basic colors,1
+red,basic colors,1
+yellow,basic colors,1
+cello,types of musical instruments,1
+flute,types of musical instruments,1
+harp,types of musical instruments,1
+violin,types of musical instruments,1
+helium,elements of the periodic table,1
+mercury,elements of the periodic table,1
+oxygen,elements of the periodic table,1
+xenon,elements of the periodic table,1
+carpediem,latin phrases,1
+quovadis,latin phrases,1
+venividivici,latin phrases,1
+incognito,latin phrases,1
+apple,common fruits,1
+banana,common fruits,1
+orange,common fruits,1
+pear,common fruits,1
+monet,famous painters,1
+picasso,famous painters,1
+rembrandt,famous painters,1
+vangogh,famous painters,1
+alluring,synonyms for beautiful,1
+exquisite,synonyms for beautiful,1
+gorgeous,synonyms for beautiful,1
+radiant,synonyms for beautiful,1
+aristotle,greek philosophers,1
+heraclitus,greek philosophers,1
+plato,greek philosophers,1
+sophocles,greek philosophers,1
+breeze,types of winds,1
+gust,types of winds,1
+monsoon,types of winds,1
+zephyr,types of winds,1
+amazon,major world rivers,1
+ganges,major world rivers,1
+nile,major world rivers,1
+volga,major world rivers,1
+pompeii,significant archaeological sites,1
+pyramids,significant archaeological sites,1
+stonehenge,significant archaeological sites,1
+troy,significant archaeological sites,1
+diamond,gems and precious stones,1
+emerald,gems and precious stones,1
+ruby,gems and precious stones,1
+sapphire,gems and precious stones,1
+brodzky,famous sculptors,1
+david,famous sculptors,1
+rodin,famous sculptors,1
+michelangelo,famous sculptors,1
+bake,food preparation methods,1
+grill,food preparation methods,1
+saute,food preparation methods,1
+steam,food preparation methods,1
+gothic,architectural styles,1
+modern,architectural styles,1
+neoclassical,architectural styles,1
+romanesque,architectural styles,1
+eagle,types of birds,1
+heron,types of birds,1
+kiwi,types of birds,1
+sparrow,types of birds,1
+cerium,rare earth elements,1
+erbium,rare earth elements,1
+neodymium,rare earth elements,1
+thulium,rare earth elements,1
+hamlet,globe theatre plays,1
+macbeth,globe theatre plays,1
+othello,globe theatre plays,1
+tempest,globe theatre plays,1
+dolphin,common mammals,1
+elephant,common mammals,1
+kangaroo,common mammals,1
+raccoon,common mammals,1
+arachnophobia,unusual phobias,1
+claustrophobia,unusual phobias,1
+gerascophobia,unusual phobias,1
+trichophobia,unusual phobias,1
+biotin,lesser-known vitamins,1
+folate,lesser-known vitamins,1
+niacin,lesser-known vitamins,1
+riboflavin,lesser-known vitamins,1
+denmark,nordic countries,1
+finland,nordic countries,1
+iceland,nordic countries,1
+sweden,nordic countries,1
+chess,classic board games,1
+risk,classic board games,1
+sorry,classic board games,1
+twister,classic board games,1
+boccia,unusual sports,1
+jai-alai,unusual sports,1
+kabaddi,unusual sports,1
+sepak,unusual sports,1
+arch,types of bridges,1
+beam,types of bridges,1
+cantilever,types of bridges,1
+suspension,types of bridges,1
+chemistry,nobel prize categories,1
+literature,nobel prize categories,1
+peace,nobel prize categories,1
+physics,nobel prize categories,1
+holmes,famous literary detectives,1
+marlowe,famous literary detectives,1
+poirot,famous literary detectives,1
+sam spade,famous literary detectives,1
+ether,obsolete scientific theories,1
+flat earth,obsolete scientific theories,1
+phlogiston,obsolete scientific theories,1
+spontaneous generation,obsolete scientific theories,1
+coal,fossil fuel products,1
+gasoline,fossil fuel products,1
+kerosene,fossil fuel products,1
+natural gas,fossil fuel products,1
+hexagon,shapes in geometry,1
+parallelogram,shapes in geometry,1
+rhombus,shapes in geometry,1
+triangle,shapes in geometry,1
+aristotle,ancient philosophers,1
+confucius,ancient philosophers,1
+plato,ancient philosophers,1
+socrates,ancient philosophers,1
+franco,infamous dictators,1
+hitler,infamous dictators,1
+stalin,infamous dictators,1
+mussolini,infamous dictators,1
+flame,unusual pantone colors,1
+marsala,unusual pantone colors,1
+serenity,unusual pantone colors,1
+tangerine,unusual pantone colors,1
+berkelium,rare chemical elements,1
+hafnium,rare chemical elements,1
+rhenium,rare chemical elements,1
+thulium,rare chemical elements,1
+cumulus,types of clouds,1
+nimbus,types of clouds,1
+stratus,types of clouds,1
+cirrocumulus,types of clouds,1
+bachata,latin dance styles,1
+merengue,latin dance styles,1
+rumba,latin dance styles,1
+salsa,latin dance styles,1
+batholith,uncommon geological terms,1
+cretaceous,uncommon geological terms,1
+peneplain,uncommon geological terms,1
+talus,uncommon geological terms,1
+assyria,ancient civilizations,1
+babylon,ancient civilizations,1
+carthage,ancient civilizations,1
+sumer,ancient civilizations,1
+coriolanus,lesser known shakespeare plays,1
+cymbeline,lesser known shakespeare plays,1
+pericles,lesser known shakespeare plays,1
+titus,lesser known shakespeare plays,1
+beethoven,renowned classical composers,1
+haydn,renowned classical composers,1
+mozart,renowned classical composers,1
+verdi,renowned classical composers,1
+psycho,hitchcock movies,1
+rope,hitchcock movies,1
+vertigo,hitchcock movies,1
+rebecca,hitchcock movies,1
+pentatonic,music scales,1
+chromatic,music scales,1
+major,music scales,1
+minor,music scales,1
+bosch,tool brands,1
+dewalt,tool brands,1
+makita,tool brands,1
+ryobi,tool brands,1
+conquest,the four horsemen of the apocalypse,1
+death,the four horsemen of the apocalypse,1
+famine,the four horsemen of the apocalypse,1
+war,the four horsemen of the apocalypse,1
+aether,obscure greek gods,1
+erebus,obscure greek gods,1
+hyperion,obscure greek gods,1
+themis,obscure greek gods,1
+malbec,types of wine,1
+riesling,types of wine,1
+syrah,types of wine,1
+zinfandel,types of wine,1
+fortran,computer programming languages,1
+lisp,computer programming languages,1
+ruby,computer programming languages,1
+swift,computer programming languages,1
+curie,famous scientists,1
+einstein,famous scientists,1
+hawking,famous scientists,1
+tesla,famous scientists,1
+sumerians,ancient civilizations,1
+egyptians,ancient civilizations,1
+mayans,ancient civilizations,1
+romans,ancient civilizations,1
+morpheme,linguistic terms,1
+syntax,linguistic terms,1
+semiotics,linguistic terms,1
+phoneme,linguistic terms,1
+fibrodysplasia,rare diseases,1
+pantothenate,rare diseases,1
+ochronosis,rare diseases,1
+hyper igm,rare diseases,1
+comet,celestial objects,1
+pulsar,celestial objects,1
+nebula,celestial objects,1
+quasar,celestial objects,1
+beethoven,famous composers,1
+mozart,famous composers,1
+bach,famous composers,1
+vivaldi,famous composers,1
+halberd,medieval weapons,1
+trebuchet,medieval weapons,1
+longsword,medieval weapons,1
+crossbow,medieval weapons,1
+stonehenge,archaeological sites,1
+machupicchu,archaeological sites,1
+pyramids,archaeological sites,1
+petra,archaeological sites,1
+entanglement,quantum physics terms,1
+superposition,quantum physics terms,1
+quark,quantum physics terms,1
+boson,quantum physics terms,1
+tyrannosaurus,dinosaurs,1
+velociraptor,dinosaurs,1
+stegosaurus,dinosaurs,1
+triceratops,dinosaurs,1
+pythagorean,mathematical theorems,1
+fermat,mathematical theorems,1
+gauss,mathematical theorems,1
+riemann,mathematical theorems,1
+blockchain,cryptocurrency terms,1
+ether,cryptocurrency terms,1
+litecoin,cryptocurrency terms,1
+ripple,cryptocurrency terms,1
+tanzanite,rare gems,1
+grandidierite,rare gems,1
+alexandrite,rare gems,1
+painite,rare gems,1
+galaxy,astronomical objects,1
+pulsar,astronomical objects,1
+nebula,astronomical objects,1
+quasar,astronomical objects,1
+allegro,musical terms,1
+fugue,musical terms,1
+cadence,musical terms,1
+fortissimo,musical terms,1
+beetle,entomology (study of insects),1
+mantis,entomology (study of insects),1
+firefly,entomology (study of insects),1
+dragonfly,entomology (study of insects),1
+besmirch,archaic english terms,1
+gainsay,archaic english terms,1
+yclept,archaic english terms,1
+wight,archaic english terms,1
+colosseum,ancient roman architecture,1
+pantheon,ancient roman architecture,1
+aqueduct,ancient roman architecture,1
+forum,ancient roman architecture,1
+hamlet,shakespeare plays,1
+othello,shakespeare plays,1
+macbeth,shakespeare plays,1
+templest,shakespeare plays,1
+enigma,cryptography terms,1
+cyborg,cryptography terms,1
+hash,cryptography terms,1
+cipher,cryptography terms,1
+hemlock,poisonous plants,1
+belladonna,poisonous plants,1
+oleander,poisonous plants,1
+castor,poisonous plants,1
+socrates,ancient philosophers,1
+plato,ancient philosophers,1
+aristotle,ancient philosophers,1
+confucius,ancient philosophers,1
+cretaceous,geological periods,1
+jurassic,geological periods,1
+triassic,geological periods,1
+permian,geological periods,1
+europium,rare earth elements,1
+terbium,rare earth elements,1
+promethium,rare earth elements,1
+thulium,rare earth elements,1
+nebula,astronomical terms,1
+quasar,astronomical terms,1
+pulsar,astronomical terms,1
+galaxy,astronomical terms,1
+bill,lineup,1
+program,lineup,1
+schedule,lineup,1
+slate,lineup,1
+audio,nyt offerings,1
+cooking,nyt offerings,1
+games,nyt offerings,1
+news,nyt offerings,1
+airplane,things made by folding paper,1
+crane,things made by folding paper,1
+fan,things made by folding paper,1
+fortune teller,things made by folding paper,1
+adieu,french words,1
+belle,french words,1
+pain,french words,1
+temps,french words,1
+designer,brand-name,1
+haute,brand-name,1
+high-end,brand-name,1
+luxury,brand-name,1
+concoct,devise,1
+engineer,devise,1
+hatch,devise,1
+mastermind,devise,1
+galileo,nasa spacecraft,1
+pioneer,nasa spacecraft,1
+viking,nasa spacecraft,1
+voyager,nasa spacecraft,1
+bingo,games where you say the game’s name,1
+marco polo,games where you say the game’s name,1
+tag,games where you say the game’s name,1
+uno,games where you say the game’s name,1
